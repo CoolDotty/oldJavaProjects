@@ -1,0 +1,27 @@
+package websitecom;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) throws Exception {
+		
+		File source = new File("profile.txt");
+		
+		Scanner input;
+
+		// Now start our bot up.
+		TwitchBot bot = new TwitchBot(args[0], Integer.parseInt(args[1]), args[2], args[3], args[4]);
+
+		// Enable debugging output.
+		bot.setVerbose(true);
+
+		// Connect to the IRC server.
+		bot.connect("irc.freenode.net");
+
+		// Join the #pircbot channel.
+		bot.joinChannel("#pircbot");
+
+	}
+}

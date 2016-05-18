@@ -1,0 +1,4 @@
+package websitecom.commands;
+
+public abstract class Command {
+}

@@ -1,0 +1,5 @@
+irc.twitch.tv
+6667
+oauth:yejm80bvhjzyksq63tzf4j96u6hae3
+Yogurlkatiec
+karlthecool

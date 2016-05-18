@@ -1,0 +1,28 @@
+package websitecom;
+
+import org.jibble.pircbot.PircBot;
+
+public class TwitchBot extends PircBot {
+	public TwitchBot(String user) {
+		this.setName(user);
+	}
+	
+	private final String key = "YoGurl!";
+	//.timeout .ban .clear
+	private final String timeout = ".timeout ";
+	private final String ban 	 = ".ban ";
+	private final String clear 	 = ".clear";
+
+	public void onMessage(String channel, String sender, String login, String hostname, String message) {
+		String in = message.toLowerCase();
+		
+		if (in.equals(key + "time")) {
+			String time = new java.util.Date().toString();
+			sendMessage(channel, sender + ": The time is now " + time);
+		} else if (in.equals(key + "clear")) {
+			sendMessage(channel, clear);
+		} else {
+			sendMessage(channel, "Error: Invalid Command.");
+		}
+	}
+}

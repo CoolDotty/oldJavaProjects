@@ -1,0 +1,5 @@
+package websitecom.script;
+
+public class Poll extends Script {
+
+}

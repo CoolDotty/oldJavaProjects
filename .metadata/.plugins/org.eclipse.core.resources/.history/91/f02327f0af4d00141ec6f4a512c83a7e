@@ -1,0 +1,13 @@
+package websitecom.script;
+
+public class Poll extends Script {
+
+	private int state;
+	private final int idle = 0;
+	private final int polling = 1;
+	
+	public Poll() {
+		state = idle;
+	}
+	
+}

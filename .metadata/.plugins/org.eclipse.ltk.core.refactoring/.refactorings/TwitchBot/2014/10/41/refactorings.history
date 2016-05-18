@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;TwitchBot/src/websitecom/Commands&apos; to &apos;commands&apos;" description="Rename resource &apos;Commands&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/websitecom/Commands" name="commands" stamp="1412633923533" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;TwitchBot/src/websitecom/commands&apos; to &apos;script&apos;" description="Rename resource &apos;commands&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/websitecom/commands" name="script" stamp="1412637575827" updateReferences="true"/>
+</session>

@@ -1,0 +1,14 @@
+package websitecom.script;
+
+public abstract class Script {
+
+	protected String name = "Default Script Name";
+	
+	public void run() {
+		
+	}
+	
+	public String getName() {
+		return name;
+	}
+}
